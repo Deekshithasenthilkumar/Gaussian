@@ -15,12 +15,10 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Program:
 ```
-/*
-Program to find the solution of a matrix using Gaussian Elimination.
+'''Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: DEEKSHITHA S
-RegisterNumber: 212225100007
-*/
-```
+RegisterNumber: 212225100007/25014669
+'''
 import sys
 n = int(input())
 A = [[0]*(n+1)for _ in range(n)]
@@ -44,6 +42,7 @@ for i in range(n-2,-1,-1):
     
 for i in range(n):
     print('X%d = %0.2f'%(i,X[i]),end=" ")
+```
 
 ## Output:
 <img width="1920" height="1080" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/ff2c003c-d049-4a08-919b-0516789ec92a" />
